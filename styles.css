@@ -75,4 +75,22 @@
      font-weight: bold;
  }
  
- 
+ .aws-sec {
+    display: flex;
+    justify-content: center;
+    gap: 580px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ .grouped {
+    width: 400px;
+ }
+
+ .main-text {
+    margin-bottom: 0;
+ }
+
+ #sec-text {
+    margin-top: 0px;
+ }
