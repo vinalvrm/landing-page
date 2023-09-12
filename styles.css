@@ -1,8 +1,13 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
  }
  
+ a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
  ul {
      /* this removes the dots on the list items*/
      list-style-type: none;
