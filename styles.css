@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -64,6 +68,7 @@
     display: flex;
     justify-content: center;
     gap: 60px;
+    margin-bottom: 80px;
 }
 
  .info-text {
@@ -76,6 +81,8 @@
  
  .quote {
      background-color: #E5E7EB;
+     display: flex;
+     justify-content: center;
  }
  
  .q-text {
@@ -83,10 +90,20 @@
      font-weight: light;
      font-style: italic;
      color: #1F2937;
+     margin-bottom: 0px;
  }
  
  .q-name {
      font-weight: bold;
+     display: flex;
+     justify-content: flex-end;
+     padding-right: 20px;
+ }
+
+ .q-box {
+    width: 830px;
+    padding-top: 80px;
+    padding-bottom: 80px;
  }
  
  .aws-sec {
@@ -94,7 +111,7 @@
     justify-content: center;
     gap: 580px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
  }
 
  .grouped {
