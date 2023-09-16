@@ -119,13 +119,19 @@ body {
     padding-bottom: 80px;
  }
  
- .aws-sec {
+ .aws-sec{
     display: flex;
     justify-content: center;
-    gap: 580px;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    gap: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
  }
+
+ .hero-img {
+    width: 900px;
+    max-height: 350px;
+    max-width: 750px;
+}
 
  .grouped {
     width: 400px;
