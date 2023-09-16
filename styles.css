@@ -53,11 +53,17 @@
  .cta-btn {
      background-color: #3882F6;
  }
+
+ .four-img {
+    display: flex;
+ }
  
  .info-text {
      font-size: 36px;
      font-weight: bolder;
      color: #1F2937;
+     display: flex;
+     justify-content: center;
  }
  
  .quote {
