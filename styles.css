@@ -54,10 +54,18 @@
      background-color: #3882F6;
  }
 
- .four-img {
+.grouped-img,
+.img-txt {
+    text-align: center;
+    width: 250px;
+}
+
+.gr-img-all {
     display: flex;
- }
- 
+    justify-content: center;
+    gap: 60px;
+}
+
  .info-text {
      font-size: 36px;
      font-weight: bolder;
