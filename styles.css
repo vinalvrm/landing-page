@@ -53,10 +53,6 @@ body {
  .hero-btn {
      color: #3882F6; 
  }
- 
- .cta-btn {
-     background-color: #3882F6;
- }
 
 .grouped-img,
 .img-txt {
@@ -126,3 +122,26 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
  }
+
+ .cta-bkgrd {
+    display: flex;
+    justify-content: center;
+ }
+
+ .cta {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #3382F6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    width: 900px;
+ }
+
+ .cta-btn {
+    background-color: #3882F6;
+    width: 70px;
+    height: 30px;
+}
